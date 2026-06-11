@@ -1,0 +1,47 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Environment / Secrets ────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ─── Uploads (don't push user files) ─────────────────────
+backend/uploads/
+
+# ─── Alembic ──────────────────────────────────────────────
+# Keep migrations but ignore pycache inside
+backend/alembic/__pycache__/
+
+# ─── Node / Frontend ──────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ─── IDEs ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ─── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Test / Scratch ───────────────────────────────────────
+backend/test_gemini.py
+*.log

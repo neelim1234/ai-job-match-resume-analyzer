@@ -4,7 +4,7 @@ A **portfolio-grade full-stack application** that uses Google Gemini AI to analy
 
 ---
 
-## ✨ Features
+##  Features
 
 - **JWT Authentication** — Register, login, protected routes
 - **Resume Upload** — Upload PDF resumes with automatic text extraction via `pdfplumber`
@@ -64,7 +64,7 @@ job_descriptor/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -120,7 +120,7 @@ npm run dev
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 Create `backend/.env` from `backend/.env.example`:
 
@@ -157,7 +157,7 @@ Full interactive docs at `/api/docs` (Swagger UI).
 
 ---
 
-## 🧠 How the AI Analysis Works
+##  How the AI Analysis Works
 
 1. User selects a saved resume + job description
 2. Backend fetches both from the database
@@ -168,7 +168,7 @@ Full interactive docs at `/api/docs` (Swagger UI).
 
 ---
 
-## 🗄 Database Schema
+##  Database Schema
 
 ```
 users          — id, email, hashed_password, full_name, created_at
@@ -181,7 +181,7 @@ analyses       — id, user_id, resume_id, job_description_id,
 
 ---
 
-## 🏗 Future Improvements (Phase 4+)
+##  Future Improvements (Phase 4+)
 
 - [ ] Export analysis as PDF report
 - [ ] Email notifications for analyses
@@ -192,6 +192,4 @@ analyses       — id, user_id, resume_id, job_description_id,
 
 ---
 
-## 📄 License
 
-MIT — free to use for portfolio and learning purposes.

@@ -1,4 +1,4 @@
-# AI Job Match & Resume Analyzer 🤖
+# AI Job Match & Resume Analyzer 
 
 A **portfolio-grade full-stack application** that uses Google Gemini AI to analyze how well a resume matches a job description. Built with FastAPI, PostgreSQL, and React + TypeScript.
 

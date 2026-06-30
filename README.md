@@ -20,7 +20,7 @@ A **portfolio-grade full-stack application** that uses Google Gemini AI to analy
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 job_descriptor/
@@ -46,7 +46,7 @@ job_descriptor/
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
